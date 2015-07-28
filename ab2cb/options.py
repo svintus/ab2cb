@@ -4,7 +4,7 @@ from __future__ import print_function
 import argparse
 import sys
 
-from . import __version__
+from __init__ import __version__
 
 
 # put these string here so we can import them for testing

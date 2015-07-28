@@ -10,7 +10,7 @@ import os.path
 import re
 import sys
 
-from .logger import error, init_logging
+from logger import error, init_logging
 
 # lifted from ABP/filterClasses.js
 elemhideRegExp = re.compile(r'^([^\/\*\|\@"!]*?)#(\@)?(?:([\w\-]+|\*)((?:\([\w\-]+(?:[$^*]?=[^\(\)"]*)?\))*)|#([^{}]+))$')
@@ -51,7 +51,7 @@ regex_cleaners = [
     (re.compile(r'([.*+?^${}()|[\]\\])'), r"\\\1"), # escape special symbols
     (re.compile(r'\\\*'), r".*"), # replace wildcards by .*
     # process separator placeholders (all ANSI characters but alphanumeric characters and _%.-)
-    (re.compile(r'\\\^'), r"(?:[\\x00-\\x24\\x26-\\x2C\\x2F\\x3A-\\x40\\x5B-\\x5E\\x60\\x7B-\\x7F]|$)"),
+    #(re.compile(r'\\\^'), r"(?:[\\x00-\\x24\\x26-\\x2C\\x2F\\x3A-\\x40\\x5B-\\x5E\\x60\\x7B-\\x7F]|$)"),
     #(re.compile(r'\\\|\\\|'), r"^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?"), # process extended anchor at expression start
     (re.compile(r'^\\\|'), r"^"),  # process anchor at expression start
     (re.compile(r'\\\|$'), r"$"),  # process anchor at expression end
@@ -350,7 +350,7 @@ def ab2cb(options):
 
 
 def main(argv, stdin=None, stdout=None, stderr=None):
-    from .options import parse_opts
+    from options import parse_opts
     exit_statuses = {
         'extracted': 0,
         'no-extract': 1,

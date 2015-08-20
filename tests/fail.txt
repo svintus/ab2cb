@@ -33,3 +33,19 @@
 @@|http://l.$script,third-party,domain=cbs.com
 @@|http://popsads.com^$script,domain=filmovizija.com
 
+// antisocial
+
+allestörungen.de,facebook.com,foodit.com,google.com,jetpack.wordpress.com,ludins.fr,maxthon.com,opendatacity.de,twitter.com,wikipedia.org#@#a[title="Facebook"]
+allestörungen.de,google.com,linkedin.com,wikipedia.org#@#a[title="LinkedIn"]
+allestörungen.de,google.com,heise.de,maxthon.com,opendatacity.de,wikipedia.org#@#a[title="Youtube"]
+
+allestörungen.de,google.com,jetpack.wordpress.com,live.com,maxthon.com,opendatacity.de,outlook.com,twitter.com,wikipedia.org#@#a[title="Twitter"]
+
+allestörungen.de,marketplace.firefox.com#@#img[title="Facebook"]
+allestörungen.de#@#img[title="LinkedIn"]
+allestörungen.de,fark.com,marketplace.firefox.com#@#img[title="Twitter"]
+
+
+// easyprivacy
+
+|http

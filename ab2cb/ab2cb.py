@@ -338,7 +338,7 @@ def write_rules(options, rules):
             black.append(r)
     
     black.extend(white)
-    print "TOTAL: ", len(black)
+    # print "TOTAL: ", len(black)
     json.dump(black, fp, indent=4)
 
 

@@ -462,6 +462,14 @@
             "type": "block"
         }, 
         "trigger": {
+            "url-filter": "^https?://.*\\.com/elt\\.gif\\?"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
             "url-filter": "^https?://.*\\.com/g\\.gif\\?"
         }
     }, 
@@ -758,6 +766,14 @@
             "type": "block"
         }, 
         "trigger": {
+            "url-filter": "^https?://.*\\.com/z\\.gif\\?"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
             "url-filter": "^https?://.*\\.core\\.tracking-min-"
         }
     }, 
@@ -790,6 +806,14 @@
             "type": "block"
         }, 
         "trigger": {
+            "url-filter": "^https?://.*\\.fr/z\\.gif\\?"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
             "url-filter": "^https?://.*\\.gatracker\\."
         }
     }, 
@@ -799,6 +823,14 @@
         }, 
         "trigger": {
             "url-filter": "^https?://.*\\.gatracking\\.js"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://.*\\.gif\\?ad="
         }
     }, 
     {
@@ -846,6 +878,14 @@
         }, 
         "trigger": {
             "url-filter": "^https?://.*\\.html\\?wpl="
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://.*\\.in/c\\.gif\\?"
         }
     }, 
     {
@@ -1393,6 +1433,22 @@
             "type": "block"
         }, 
         "trigger": {
+            "url-filter": "^https?://.*/ablank\\.gif\\?"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://.*/acbeacon2\\."
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
             "url-filter": "^https?://.*/AccessCounter/.*"
         }
     }, 
@@ -1748,6 +1804,22 @@
             "type": "block"
         }, 
         "trigger": {
+            "url-filter": "^https?://.*/adstrack\\."
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://.*/adtrk/.*"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
             "url-filter": "^https?://.*/adviewtrack\\."
         }
     }, 
@@ -1853,6 +1925,14 @@
         }, 
         "trigger": {
             "url-filter": "^https?://.*/affilinetRetargeting\\."
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://.*/AffinoAudit/.*"
         }
     }, 
     {
@@ -2182,6 +2262,14 @@
         }, 
         "trigger": {
             "url-filter": "^https?://.*/analytics\\.html\\?action="
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://.*/analytics\\.min\\.js"
         }
     }, 
     {
@@ -2525,6 +2613,14 @@
             "type": "block"
         }, 
         "trigger": {
+            "url-filter": "^https?://.*/anapixel\\."
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
             "url-filter": "^https?://.*/ancAdTrack\\.js"
         }
     }, 
@@ -2718,6 +2814,14 @@
         }, 
         "trigger": {
             "url-filter": "^https?://.*/atapixel\\.js"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://.*/atatus\\.js"
         }
     }, 
     {
@@ -3124,14 +3228,6 @@
         }, 
         "trigger": {
             "url-filter": "^https?://.*/baynoteobserver/.*"
-        }
-    }, 
-    {
-        "action": {
-            "type": "block"
-        }, 
-        "trigger": {
-            "url-filter": "^https?://.*/bbtstats/pixel\\.gif\\?"
         }
     }, 
     {
@@ -4204,6 +4300,14 @@
             "type": "block"
         }, 
         "trigger": {
+            "url-filter": "^https?://.*/class\\.tracking\\.js"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
             "url-filter": "^https?://.*/clear\\.gif\\?"
         }
     }, 
@@ -4708,6 +4812,22 @@
             "type": "block"
         }, 
         "trigger": {
+            "url-filter": "^https?://.*/cnt/cnt\\.php\\?"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://.*/cnt/start\\.php\\?"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
             "url-filter": "^https?://.*/cntpixel\\."
         }
     }, 
@@ -4733,6 +4853,14 @@
         }, 
         "trigger": {
             "url-filter": "^https?://.*/cognitive_match/.*"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://.*/collect\\?callback="
         }
     }, 
     {
@@ -5093,6 +5221,14 @@
         }, 
         "trigger": {
             "url-filter": "^https?://.*/counter\\.php\\?chcounter_mode="
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://.*/counter\\.pl\\?"
         }
     }, 
     {
@@ -6068,6 +6204,14 @@
             "type": "block"
         }, 
         "trigger": {
+            "url-filter": "^https?://.*/est\\.pl\\?"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
             "url-filter": "^https?://.*/estatistica\\.js"
         }
     }, 
@@ -6292,6 +6436,14 @@
             "type": "block"
         }, 
         "trigger": {
+            "url-filter": "^https?://.*/ezakus\\.js"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
             "url-filter": "^https?://.*/ezytrack\\."
         }
     }, 
@@ -6301,6 +6453,14 @@
         }, 
         "trigger": {
             "url-filter": "^https?://.*/FacebookTracking\\."
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://.*/fairfax_tracking\\.js"
         }
     }, 
     {
@@ -6439,7 +6599,23 @@
             "type": "block"
         }, 
         "trigger": {
+            "url-filter": "^https?://.*/footer-tracking\\.js"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
             "url-filter": "^https?://.*/footer_tag_iframe\\."
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://.*/footerpixel\\.gif\\?"
         }
     }, 
     {
@@ -7298,6 +7474,14 @@
             "type": "block"
         }, 
         "trigger": {
+            "url-filter": "^https?://.*/geomap\\.js\\?"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
             "url-filter": "^https?://.*/geov2\\.js"
         }
     }, 
@@ -7845,6 +8029,14 @@
             "type": "block"
         }, 
         "trigger": {
+            "url-filter": "^https?://.*/headerpixel\\.gif\\?"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
             "url-filter": "^https?://.*/headupstats\\.gif\\?"
         }
     }, 
@@ -8149,6 +8341,14 @@
             "type": "block"
         }, 
         "trigger": {
+            "url-filter": "^https?://.*/horizon\\..*/track\\?"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
             "url-filter": "^https?://.*/horizon/track\\?"
         }
     }, 
@@ -8269,6 +8469,14 @@
             "type": "block"
         }, 
         "trigger": {
+            "url-filter": "^https?://.*/ignition-one\\.js"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
             "url-filter": "^https?://.*/image\\.ng/.*"
         }
     }, 
@@ -8374,6 +8582,14 @@
         }, 
         "trigger": {
             "url-filter": "^https?://.*/imp\\.php\\?a"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://.*/imp\\?imgid="
         }
     }, 
     {
@@ -8693,6 +8909,14 @@
             "type": "block"
         }, 
         "trigger": {
+            "url-filter": "^https?://.*/iplookup\\.php"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
             "url-filter": "^https?://.*/iporganictrack\\."
         }
     }, 
@@ -8892,6 +9116,14 @@
             "type": "block"
         }, 
         "trigger": {
+            "url-filter": "^https?://.*/jcaffiliatesystem/.*"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
             "url-filter": "^https?://.*/jgs_portal_log_bildschirm\\.php\\?"
         }
     }, 
@@ -9044,6 +9276,14 @@
             "type": "block"
         }, 
         "trigger": {
+            "url-filter": "^https?://.*/js/tracking\\.js"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
             "url-filter": "^https?://.*/js/trk_"
         }
     }, 
@@ -9085,6 +9325,14 @@
         }, 
         "trigger": {
             "url-filter": "^https?://.*/jslogger\\.php\\?ref="
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://.*/jstats\\.php"
         }
     }, 
     {
@@ -9235,6 +9483,14 @@
             "load-type": [
                 "third-party"
             ]
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://.*/landings-pixel\\?"
         }
     }, 
     {
@@ -9411,6 +9667,14 @@
         }, 
         "trigger": {
             "url-filter": "^https?://.*/log\\.gif\\?"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://.*/log\\.htm\\?"
         }
     }, 
     {
@@ -10218,6 +10482,22 @@
             "type": "block"
         }, 
         "trigger": {
+            "url-filter": "^https?://.*/micro\\.php\\?action=view&"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://.*/microreporting\\."
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
             "url-filter": "^https?://.*/middle\\?call=http"
         }
     }, 
@@ -10307,6 +10587,14 @@
         }, 
         "trigger": {
             "url-filter": "^https?://.*/mktg_metrics/.*"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://.*/ml\\.track\\.me\\?"
         }
     }, 
     {
@@ -11211,6 +11499,17 @@
             "type": "block"
         }, 
         "trigger": {
+            "url-filter": "^https?://.*/optimizely/.*", 
+            "resource-type": [
+                "script"
+            ]
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
             "url-filter": "^https?://.*/optimost-"
         }
     }, 
@@ -11603,17 +11902,6 @@
             "type": "block"
         }, 
         "trigger": {
-            "url-filter": "^https?://.*/pageview\\.js", 
-            "load-type": [
-                "third-party"
-            ]
-        }
-    }, 
-    {
-        "action": {
-            "type": "block"
-        }, 
-        "trigger": {
             "url-filter": "^https?://.*/pageview;"
         }
     }, 
@@ -11774,6 +12062,14 @@
             "type": "block"
         }, 
         "trigger": {
+            "url-filter": "^https?://.*/ping/dot\\.gif\\?"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
             "url-filter": "^https?://.*/ping/show\\?"
         }
     }, 
@@ -11799,6 +12095,14 @@
         }, 
         "trigger": {
             "url-filter": "^https?://.*/ping_g\\.jsp\\?"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://.*/ping_hotclick\\.js"
         }
     }, 
     {
@@ -11978,31 +12282,7 @@
             "type": "block"
         }, 
         "trigger": {
-            "url-filter": "^https?://.*/pixel\\.gif\\?b="
-        }
-    }, 
-    {
-        "action": {
-            "type": "block"
-        }, 
-        "trigger": {
-            "url-filter": "^https?://.*/pixel\\.gif\\?d="
-        }
-    }, 
-    {
-        "action": {
-            "type": "block"
-        }, 
-        "trigger": {
-            "url-filter": "^https?://.*/pixel\\.gif\\?key="
-        }
-    }, 
-    {
-        "action": {
-            "type": "block"
-        }, 
-        "trigger": {
-            "url-filter": "^https?://.*/pixel\\.gif\\?nocache="
+            "url-filter": "^https?://.*/pixel\\.gif\\?"
         }
     }, 
     {
@@ -12275,6 +12555,22 @@
         }, 
         "trigger": {
             "url-filter": "^https?://.*/plugins/wordfence/visitor\\.php\\?"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://.*/PmsPixel\\?"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://.*/pmspxl\\."
         }
     }, 
     {
@@ -12568,7 +12864,7 @@
             "type": "block"
         }, 
         "trigger": {
-            "url-filter": "^https?://.*/pxlctl\\.gif\\?"
+            "url-filter": "^https?://.*/pxlctl\\."
         }
     }, 
     {
@@ -12729,6 +13025,14 @@
         }, 
         "trigger": {
             "url-filter": "^https?://.*/ra_track\\."
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://.*/radium-one\\.js"
         }
     }, 
     {
@@ -12971,6 +13275,14 @@
             "type": "block"
         }, 
         "trigger": {
+            "url-filter": "^https?://.*/registeradevent\\?"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
             "url-filter": "^https?://.*/RegisterWebPageVisit\\."
         }
     }, 
@@ -13148,6 +13460,14 @@
         }, 
         "trigger": {
             "url-filter": "^https?://.*/roiTrax\\."
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://.*/rolluptracker_"
         }
     }, 
     {
@@ -14195,6 +14515,14 @@
             "type": "block"
         }, 
         "trigger": {
+            "url-filter": "^https?://.*/st\\.aspx\\?"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
             "url-filter": "^https?://.*/stat\\.aspx\\?"
         }
     }, 
@@ -14292,6 +14620,14 @@
         }, 
         "trigger": {
             "url-filter": "^https?://.*/stat36/stat/track\\.php"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://.*/stat\\?SiteID="
         }
     }, 
     {
@@ -15288,6 +15624,14 @@
             "type": "block"
         }, 
         "trigger": {
+            "url-filter": "^https?://.*/tr\\.gif\\?"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
             "url-filter": "^https?://.*/track-compiled\\.js"
         }
     }, 
@@ -15739,14 +16083,6 @@
             "type": "block"
         }, 
         "trigger": {
-            "url-filter": "^https?://.*/tracker/pixel\\.gif\\?"
-        }
-    }, 
-    {
-        "action": {
-            "type": "block"
-        }, 
-        "trigger": {
             "url-filter": "^https?://.*/tracker/referrer/.*"
         }
     }, 
@@ -16100,6 +16436,14 @@
         }, 
         "trigger": {
             "url-filter": "^https?://.*/tracking/open\\?"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://.*/tracking/pageview\\."
         }
     }, 
     {
@@ -16603,6 +16947,14 @@
             "type": "block"
         }, 
         "trigger": {
+            "url-filter": "^https?://.*/tradelab\\.js"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
             "url-filter": "^https?://.*/traffic\\.asmx/.*"
         }
     }, 
@@ -17027,6 +17379,22 @@
             "type": "block"
         }, 
         "trigger": {
+            "url-filter": "^https?://.*/usrtrck-"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://.*/usrtrck_"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
             "url-filter": "^https?://.*/utag\\.ga\\."
         }
     }, 
@@ -17156,6 +17524,14 @@
         }, 
         "trigger": {
             "url-filter": "^https?://.*/vastlog\\.txt\\?"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://.*/vblank\\.gif\\?"
         }
     }, 
     {
@@ -17364,6 +17740,14 @@
         }, 
         "trigger": {
             "url-filter": "^https?://.*/visit/record\\.gif\\?"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://.*/visit\\?id="
         }
     }, 
     {
@@ -18442,6 +18826,14 @@
             "type": "block"
         }, 
         "trigger": {
+            "url-filter": "^https?://.*/xitistatus\\.js"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
             "url-filter": "^https?://.*/xmint/\\?js"
         }
     }, 
@@ -18598,6 +18990,14 @@
         }, 
         "trigger": {
             "url-filter": "^https?://.*/yalst/pixel.*\\.php\\?"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://.*/yandex-metrika\\.js"
         }
     }, 
     {
@@ -19411,6 +19811,14 @@
             "type": "block"
         }, 
         "trigger": {
+            "url-filter": "^https?://.*_setAnalyticsFields&"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
             "url-filter": "^https?://.*_social_tracking\\."
         }
     }, 
@@ -19700,6 +20108,38 @@
         }, 
         "trigger": {
             "url-filter": "^https?://.*/cdn-cgi/pe/bag2\\?.*yieldbot\\.intent\\.js"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://.*/img\\.php\\?id=.*&page="
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "://ivw\\..*/get\\?referrer="
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "://top\\..*/count/cnt\\.php\\?"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "://top\\..*/hit/"
         }
     }, 
     {
@@ -20321,6 +20761,17 @@
             "type": "block"
         }, 
         "trigger": {
+            "url-filter": "^https?://acecounter\\.com\\^", 
+            "load-type": [
+                "third-party"
+            ]
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
             "url-filter": "^https?://acestats\\.net\\^", 
             "load-type": [
                 "third-party"
@@ -20608,6 +21059,17 @@
         }, 
         "trigger": {
             "url-filter": "^https?://adtarget\\.me\\^", 
+            "load-type": [
+                "third-party"
+            ]
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://adtelligence\\.de\\^", 
             "load-type": [
                 "third-party"
             ]
@@ -21300,6 +21762,17 @@
             "type": "block"
         }, 
         "trigger": {
+            "url-filter": "^https?://atatus\\.com\\^", 
+            "load-type": [
+                "third-party"
+            ]
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
             "url-filter": "^https?://athenainstitute\\.biz\\^", 
             "load-type": [
                 "third-party"
@@ -21499,6 +21972,17 @@
         }, 
         "trigger": {
             "url-filter": "^https?://axf8\\.net\\^", 
+            "load-type": [
+                "third-party"
+            ]
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://azera-s014\\.com\\^", 
             "load-type": [
                 "third-party"
             ]
@@ -22121,6 +22605,17 @@
             "type": "block"
         }, 
         "trigger": {
+            "url-filter": "^https?://bnc\\.lt\\^", 
+            "load-type": [
+                "third-party"
+            ]
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
             "url-filter": "^https?://boomerang\\.com\\.au\\^", 
             "load-type": [
                 "third-party"
@@ -22551,6 +23046,17 @@
         }, 
         "trigger": {
             "url-filter": "^https?://campaigncog\\.com\\^", 
+            "load-type": [
+                "third-party"
+            ]
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://canddi\\.com\\^", 
             "load-type": [
                 "third-party"
             ]
@@ -23310,6 +23816,17 @@
         }, 
         "trigger": {
             "url-filter": "^https?://collserve\\.com\\^", 
+            "load-type": [
+                "third-party"
+            ]
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://commander1\\.com\\^", 
             "load-type": [
                 "third-party"
             ]
@@ -26918,6 +27435,17 @@
             "type": "block"
         }, 
         "trigger": {
+            "url-filter": "^https?://gsecondscreen\\.com\\^", 
+            "load-type": [
+                "third-party"
+            ]
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
             "url-filter": "^https?://gsimedia\\.net\\^", 
             "load-type": [
                 "third-party"
@@ -29023,6 +29551,17 @@
             "type": "block"
         }, 
         "trigger": {
+            "url-filter": "^https?://lijit\\.com\\^", 
+            "load-type": [
+                "third-party"
+            ]
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
             "url-filter": "^https?://linezing\\.com\\^", 
             "load-type": [
                 "third-party"
@@ -29496,6 +30035,17 @@
             "type": "block"
         }, 
         "trigger": {
+            "url-filter": "^https?://marketizator\\.com\\^", 
+            "load-type": [
+                "third-party"
+            ]
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
             "url-filter": "^https?://marketo\\.net\\^", 
             "load-type": [
                 "third-party"
@@ -29607,6 +30157,17 @@
         }, 
         "trigger": {
             "url-filter": "^https?://mbsy\\.co\\^", 
+            "load-type": [
+                "third-party"
+            ]
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://mbww\\.com\\^", 
             "load-type": [
                 "third-party"
             ]
@@ -31106,6 +31667,17 @@
         }, 
         "trigger": {
             "url-filter": "^https?://onefeed\\.co\\.uk\\^", 
+            "load-type": [
+                "third-party"
+            ]
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://onelink-translations\\.com\\^", 
             "load-type": [
                 "third-party"
             ]
@@ -32617,6 +33189,17 @@
             "type": "block"
         }, 
         "trigger": {
+            "url-filter": "^https?://r42tag\\.com\\^", 
+            "load-type": [
+                "third-party"
+            ]
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
             "url-filter": "^https?://r7ls\\.net\\^", 
             "load-type": [
                 "third-party"
@@ -33277,6 +33860,17 @@
             "type": "block"
         }, 
         "trigger": {
+            "url-filter": "^https?://rmtag\\.com\\^", 
+            "load-type": [
+                "third-party"
+            ]
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
             "url-filter": "^https?://rnengage\\.com\\^", 
             "load-type": [
                 "third-party"
@@ -33685,6 +34279,17 @@
         }, 
         "trigger": {
             "url-filter": "^https?://scriptshead\\.com\\^", 
+            "load-type": [
+                "third-party"
+            ]
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://sddan\\.com\\^", 
             "load-type": [
                 "third-party"
             ]
@@ -34410,6 +35015,17 @@
             "type": "block"
         }, 
         "trigger": {
+            "url-filter": "^https?://sniperlog\\.ru\\^", 
+            "load-type": [
+                "third-party"
+            ]
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
             "url-filter": "^https?://sniphub\\.com\\^", 
             "load-type": [
                 "third-party"
@@ -34719,6 +35335,17 @@
         }, 
         "trigger": {
             "url-filter": "^https?://spycounter\\.net\\^", 
+            "load-type": [
+                "third-party"
+            ]
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://spylog\\.com\\^", 
             "load-type": [
                 "third-party"
             ]
@@ -35786,6 +36413,17 @@
         }, 
         "trigger": {
             "url-filter": "^https?://tmvtp\\.com\\^", 
+            "load-type": [
+                "third-party"
+            ]
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://tns-counter\\.ru\\^", 
             "load-type": [
                 "third-party"
             ]
@@ -37630,6 +38268,17 @@
             "type": "block"
         }, 
         "trigger": {
+            "url-filter": "^https?://websiteonlinecounter\\.com\\^", 
+            "load-type": [
+                "third-party"
+            ]
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
             "url-filter": "^https?://websiteperform\\.com\\^", 
             "load-type": [
                 "third-party"
@@ -38026,6 +38675,17 @@
             "type": "block"
         }, 
         "trigger": {
+            "url-filter": "^https?://wt-safetag\\.com\\^", 
+            "load-type": [
+                "third-party"
+            ]
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
             "url-filter": "^https?://wtp101\\.com\\^", 
             "load-type": [
                 "third-party"
@@ -38291,6 +38951,17 @@
         }, 
         "trigger": {
             "url-filter": "^https?://yieldsoftware\\.com\\^", 
+            "load-type": [
+                "third-party"
+            ]
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://yjtag\\.jp\\^", 
             "load-type": [
                 "third-party"
             ]
@@ -39612,6 +40283,20 @@
             "type": "block"
         }, 
         "trigger": {
+            "url-filter": "^https?://amazonaws\\.com/logs", 
+            "resource-type": [
+                "raw"
+            ], 
+            "if-domain": [
+                "wat.tv"
+            ]
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
             "url-filter": "^https?://amazonaws\\.com/new\\.cetrk\\.com/"
         }
     }, 
@@ -39661,6 +40346,14 @@
         }, 
         "trigger": {
             "url-filter": "^https?://ams\\.addflow\\.ru\\^"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://an\\.yandex\\.ru\\^"
         }
     }, 
     {
@@ -39856,6 +40549,14 @@
         }, 
         "trigger": {
             "url-filter": "^https?://analytics\\.hpprintx\\.com\\^"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://analytics\\.kapost\\.com\\^"
         }
     }, 
     {
@@ -40128,6 +40829,14 @@
         }, 
         "trigger": {
             "url-filter": "^https?://aolcdn\\.com/omniunih_int\\.js"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://api-ping\\.intercom\\.io\\^"
         }
     }, 
     {
@@ -40600,7 +41309,23 @@
             "type": "block"
         }, 
         "trigger": {
+            "url-filter": "^https?://beacon\\.riskified\\.com\\^"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
             "url-filter": "^https?://beacon\\.securestudies\\.com\\^"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://beacon\\.sojern\\.com\\^"
         }
     }, 
     {
@@ -41926,6 +42651,14 @@
             "type": "block"
         }, 
         "trigger": {
+            "url-filter": "^https?://counter\\.rambler\\.ru\\^"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
             "url-filter": "^https?://counter\\.scribblelive\\.com\\^"
         }
     }, 
@@ -42185,7 +42918,7 @@
             "type": "block"
         }, 
         "trigger": {
-            "url-filter": "^https?://d1447tq2m68ekg\\.cloudfront\\.net\\^"
+            "url-filter": "^https?://d1a702rd0dylue\\.cloudfront\\.net\\^"
         }
     }, 
     {
@@ -42386,6 +43119,14 @@
         }, 
         "trigger": {
             "url-filter": "^https?://d2so4705rl485y\\.cloudfront\\.net\\^"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://d2tgfbvjf3q6hn\\.cloudfront\\.net\\^"
         }
     }, 
     {
@@ -42595,6 +43336,17 @@
         }, 
         "trigger": {
             "url-filter": "^https?://data\\.marketgid\\.com\\^", 
+            "load-type": [
+                "third-party"
+            ]
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://datacollect.*\\.abtasty\\.com\\^", 
             "load-type": [
                 "third-party"
             ]
@@ -42840,14 +43592,6 @@
         }, 
         "trigger": {
             "url-filter": "^https?://dnn506yrbagrg\\.cloudfront\\.net\\^"
-        }
-    }, 
-    {
-        "action": {
-            "type": "block"
-        }, 
-        "trigger": {
-            "url-filter": "^https?://documentcloud\\.org/pixel\\.gif\\?"
         }
     }, 
     {
@@ -44706,14 +45450,6 @@
             "type": "block"
         }, 
         "trigger": {
-            "url-filter": "^https?://ipro\\.com\\^.*/pixel\\.gif\\?"
-        }
-    }, 
-    {
-        "action": {
-            "type": "block"
-        }, 
-        "trigger": {
             "url-filter": "^https?://isacglobal\\.com/sa\\.js"
         }
     }, 
@@ -45163,6 +45899,14 @@
             "type": "block"
         }, 
         "trigger": {
+            "url-filter": "^https?://livecounter\\.theyosh\\.nl\\^"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
             "url-filter": "^https?://livefyre\\.com/libs/tracker/"
         }
     }, 
@@ -45212,6 +45956,14 @@
         }, 
         "trigger": {
             "url-filter": "^https?://liverail\\.com/track/\\?"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://livestats\\.kaltura\\.com\\^"
         }
     }, 
     {
@@ -45408,6 +46160,22 @@
             "load-type": [
                 "third-party"
             ]
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://loxodo-analytics\\.ext\\.nile\\.works\\^"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://lp\\.vadio\\.com\\^"
         }
     }, 
     {
@@ -46157,6 +46925,14 @@
             "type": "block"
         }, 
         "trigger": {
+            "url-filter": "^https?://ninja\\.onap\\.io\\^"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
             "url-filter": "^https?://nol\\.yahoo\\.com\\^"
         }
     }, 
@@ -46474,6 +47250,14 @@
             "type": "block"
         }, 
         "trigger": {
+            "url-filter": "^https?://p\\.yotpo\\.com\\^"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
             "url-filter": "^https?://p0\\.com/1x1"
         }
     }, 
@@ -46665,6 +47449,14 @@
             "type": "block"
         }, 
         "trigger": {
+            "url-filter": "^https?://ping\\.smyte\\.com\\^"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
             "url-filter": "^https?://pings\\.conviva\\.com\\^"
         }
     }, 
@@ -46827,6 +47619,17 @@
         }, 
         "trigger": {
             "url-filter": "^https?://platform\\.communicatorcorp\\.com\\^", 
+            "load-type": [
+                "third-party"
+            ]
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://platform\\.twitter\\.com/impressions\\.js", 
             "load-type": [
                 "third-party"
             ]
@@ -47176,6 +47979,22 @@
             "type": "block"
         }, 
         "trigger": {
+            "url-filter": "^https?://qq\\.com/heatmap/"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://qq\\.com/ping\\.js\\?"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
             "url-filter": "^https?://qq\\.com/stats\\?"
         }
     }, 
@@ -47477,14 +48296,6 @@
             "load-type": [
                 "third-party"
             ]
-        }
-    }, 
-    {
-        "action": {
-            "type": "block"
-        }, 
-        "trigger": {
-            "url-filter": "^https?://returnpath\\.net/pixel\\.gif\\?"
         }
     }, 
     {
@@ -49195,6 +50006,14 @@
             "type": "block"
         }, 
         "trigger": {
+            "url-filter": "^https?://top-fwz1\\.mail\\.ru\\^"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
             "url-filter": "^https?://topix\\.net/t6track/"
         }
     }, 
@@ -49312,6 +50131,14 @@
         }, 
         "trigger": {
             "url-filter": "^https?://track\\.99acres\\.com\\^"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://track\\.addevent\\.com\\^"
         }
     }, 
     {
@@ -50675,14 +51502,6 @@
             "load-type": [
                 "third-party"
             ]
-        }
-    }, 
-    {
-        "action": {
-            "type": "block"
-        }, 
-        "trigger": {
-            "url-filter": "^https?://viglink\\.com\\^.*/pixel\\.gif\\?"
         }
     }, 
     {
@@ -52542,6 +53361,14 @@
             "type": "block"
         }, 
         "trigger": {
+            "url-filter": "^https?://androidfilehost\\.com/libs/otf/stats\\.otf\\.php\\?"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
             "url-filter": "^https?://angelfire\\.com/cgi-bin/count\\.cgi"
         }
     }, 
@@ -52785,14 +53612,6 @@
             "type": "block"
         }, 
         "trigger": {
-            "url-filter": "^https?://as\\.com/est\\.pl\\?"
-        }
-    }, 
-    {
-        "action": {
-            "type": "block"
-        }, 
-        "trigger": {
             "url-filter": "^https?://ashleymadison\\.com/app/public/track\\.p\\?"
         }
     }, 
@@ -52962,6 +53781,22 @@
         }, 
         "trigger": {
             "url-filter": "^https?://attachmate\\.com.*/pv\\.aspx\\?"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://audit\\.macworld\\.co\\.uk\\^"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://audit\\.pcadvisor\\.co\\.uk\\^"
         }
     }, 
     {
@@ -53202,6 +54037,14 @@
         }, 
         "trigger": {
             "url-filter": "^https?://bat\\.adforum\\.com\\^"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://bats\\.video\\.yahoo\\.com\\^"
         }
     }, 
     {
@@ -54439,14 +55282,6 @@
             "type": "block"
         }, 
         "trigger": {
-            "url-filter": "^https?://cloudfront\\.net/optimizely/"
-        }
-    }, 
-    {
-        "action": {
-            "type": "block"
-        }, 
-        "trigger": {
             "url-filter": "^https?://cloudfront\\.net/pages/scripts/0011/0794\\.js", 
             "if-domain": [
                 "sourceforge.net"
@@ -54526,6 +55361,14 @@
         }, 
         "trigger": {
             "url-filter": "^https?://cnt\\.nuvid\\.com\\^"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://cnt\\.vivatube\\.com\\^"
         }
     }, 
     {
@@ -54750,6 +55593,14 @@
         }, 
         "trigger": {
             "url-filter": "^https?://count\\.prx\\.org\\^"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://count\\.rin\\.ru\\^"
         }
     }, 
     {
@@ -55435,15 +56286,7 @@
             "type": "block"
         }, 
         "trigger": {
-            "url-filter": "^https?://ea\\.pixmania\\.co\\.uk\\^"
-        }
-    }, 
-    {
-        "action": {
-            "type": "block"
-        }, 
-        "trigger": {
-            "url-filter": "^https?://ea\\.pixmania\\.ie\\^"
+            "url-filter": "^https?://ea\\.pixmania\\."
         }
     }, 
     {
@@ -55961,6 +56804,14 @@
         }, 
         "trigger": {
             "url-filter": "^https?://experts-exchange\\.com/pageloaded\\.jsp\\?"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://extremetech\\.com\\^.*/ga\\.js"
         }
     }, 
     {
@@ -56892,6 +57743,14 @@
             "type": "block"
         }, 
         "trigger": {
+            "url-filter": "^https?://geoip-lookup\\.vice\\.com\\^"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
             "url-filter": "^https?://geoip\\.al\\.com\\^"
         }
     }, 
@@ -57546,14 +58405,6 @@
             "type": "block"
         }, 
         "trigger": {
-            "url-filter": "^https?://honda\\.com/js/tracking/"
-        }
-    }, 
-    {
-        "action": {
-            "type": "block"
-        }, 
-        "trigger": {
             "url-filter": "^https?://hoseasons\\.co\\.uk/tracking/js\\.html\\?"
         }
     }, 
@@ -58043,6 +58894,14 @@
             "type": "block"
         }, 
         "trigger": {
+            "url-filter": "^https?://images-amazon\\.com\\^.*/ClientSideMetricsAUIJavascript.*\\.js"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
             "url-filter": "^https?://images-amazon\\.com\\^.*/clog/clog-platform.*\\.js", 
             "resource-type": [
                 "script"
@@ -58398,14 +59257,6 @@
             "type": "block"
         }, 
         "trigger": {
-            "url-filter": "^https?://issuu\\.com/pixel\\.gif\\?"
-        }
-    }, 
-    {
-        "action": {
-            "type": "block"
-        }, 
-        "trigger": {
             "url-filter": "^https?://itp\\.net/ga\\.js"
         }
     }, 
@@ -58426,6 +59277,22 @@
             "resource-type": [
                 "image"
             ]
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://ixquick\\.com/elp\\?"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://ixquick\\.com/pelp\\?"
         }
     }, 
     {
@@ -58984,6 +59851,14 @@
         }, 
         "trigger": {
             "url-filter": "^https?://lipsy\\.co\\.uk/_assets/images/skin/tracking/"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://list\\.ru/counter\\?"
         }
     }, 
     {
@@ -59629,14 +60504,6 @@
             "type": "block"
         }, 
         "trigger": {
-            "url-filter": "^https?://microreporting\\.metro\\.us\\^"
-        }
-    }, 
-    {
-        "action": {
-            "type": "block"
-        }, 
-        "trigger": {
             "url-filter": "^https?://microsoft\\.com/blankpixel\\.gif"
         }
     }, 
@@ -59869,14 +60736,6 @@
             "type": "block"
         }, 
         "trigger": {
-            "url-filter": "^https?://mozilla\\.com/media/img/pixel\\.gif\\?"
-        }
-    }, 
-    {
-        "action": {
-            "type": "block"
-        }, 
-        "trigger": {
             "url-filter": "^https?://mozilla\\.net\\^.*/webtrends/"
         }
     }, 
@@ -59918,14 +60777,6 @@
         }, 
         "trigger": {
             "url-filter": "^https?://msecnd\\.net\\^.*/wt\\.js\\?"
-        }
-    }, 
-    {
-        "action": {
-            "type": "block"
-        }, 
-        "trigger": {
-            "url-filter": "^https?://msn\\.co\\.in/c\\.gif\\?"
         }
     }, 
     {
@@ -61144,6 +61995,14 @@
             "type": "block"
         }, 
         "trigger": {
+            "url-filter": "^https?://pckeeper\\.com\\^.*/pixels/"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
             "url-filter": "^https?://pclick\\.europe\\.yahoo\\.com\\^"
         }
     }, 
@@ -61161,6 +62020,17 @@
         }, 
         "trigger": {
             "url-filter": "^https?://pclick\\.yahoo\\.com\\^"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://pcmag\\.com/rview/", 
+            "resource-type": [
+                "image"
+            ]
         }
     }, 
     {
@@ -61273,14 +62143,6 @@
         }, 
         "trigger": {
             "url-filter": "^https?://phonedog\\.com/geo\\.php"
-        }
-    }, 
-    {
-        "action": {
-            "type": "block"
-        }, 
-        "trigger": {
-            "url-filter": "^https?://phonepower\\.com/entry/pixel\\.gif\\?"
         }
     }, 
     {
@@ -61681,6 +62543,14 @@
         }, 
         "trigger": {
             "url-filter": "^https?://pricegrabber\\.com/analytics\\.php"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://princetonreview\\.com/logging/"
         }
     }, 
     {
@@ -62204,14 +63074,6 @@
         }, 
         "trigger": {
             "url-filter": "^https?://register\\.it/scripts/track_"
-        }
-    }, 
-    {
-        "action": {
-            "type": "block"
-        }, 
-        "trigger": {
-            "url-filter": "^https?://rei\\.com/pix/common/pixel\\.gif\\?"
         }
     }, 
     {
@@ -62857,6 +63719,14 @@
         }, 
         "trigger": {
             "url-filter": "^https?://search\\.usa\\.gov/javascripts/stats\\.js"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://search\\.yahoo\\.com/ra/click\\?"
         }
     }, 
     {
@@ -63561,6 +64431,22 @@
             "type": "block"
         }, 
         "trigger": {
+            "url-filter": "^https?://startpage\\.com/elp\\?"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://startpage\\.com/pelp\\?"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
             "url-filter": "^https?://stat\\.alibaba\\.com\\^"
         }
     }, 
@@ -63578,6 +64464,14 @@
         }, 
         "trigger": {
             "url-filter": "^https?://stat\\.ruvr\\.ru\\^"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://stat\\.torrentbar\\.com\\^"
         }
     }, 
     {
@@ -64815,7 +65709,71 @@
             "type": "block"
         }, 
         "trigger": {
+            "url-filter": "^https?://tidaltv\\.com/Ping\\.aspx"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://timeslogtn\\.timesnow\\.tv\\^"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://timesrecordnews\\.com/metrics/"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://timestrends\\.indiatimes\\.com\\^"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://timestrends\\.timesnow\\.tv\\^"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://tinypic\\.com/api\\.php\\?.*&action=track"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://tinypic\\.com/track\\.php\\?"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
             "url-filter": "^https?://tivo\\.com/__ssobj/track\\?"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://tk\\.kargo\\.com\\^"
         }
     }, 
     {
@@ -64840,6 +65798,46 @@
         }, 
         "trigger": {
             "url-filter": "^https?://topix\\.com/t6track/"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://torrentz\\.eu/ping\\?"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://torrentz\\.in/ping\\?"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://torrentz\\.li/ping\\?"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://torrentz\\.me/ping\\?"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://torrentz\\.ph/ping\\?"
         }
     }, 
     {
@@ -65031,7 +66029,7 @@
             "type": "block"
         }, 
         "trigger": {
-            "url-filter": "^https?://track\\.zalando\\.co\\.uk\\^"
+            "url-filter": "^https?://track\\.zalando\\."
         }
     }, 
     {
@@ -65160,14 +66158,6 @@
         }, 
         "trigger": {
             "url-filter": "^https?://tracking\\.battleon\\.com\\^"
-        }
-    }, 
-    {
-        "action": {
-            "type": "block"
-        }, 
-        "trigger": {
-            "url-filter": "^https?://tracking\\.bloomberg\\.com\\^"
         }
     }, 
     {
@@ -65544,6 +66534,46 @@
         }, 
         "trigger": {
             "url-filter": "^https?://trueffect\\.underarmour\\.com\\^"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://truste\\.com/common/js/ga\\.js"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://truste\\.com/notice\\?.*consent-track"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://truthdig\\.com/\\?ACT="
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://tscapeplay\\.com/msvp\\.php\\?"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://tscapeplay\\.com/pvim\\?"
         }
     }, 
     {
@@ -66162,6 +67192,182 @@
             "type": "block"
         }, 
         "trigger": {
+            "url-filter": "^https?://video\\.msn\\.com/frauddetect\\.aspx\\?"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://video\\.nbc\\.com\\^.*/metrics_viral\\.xml"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://video\\.syfy\\.com/lg\\.php"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://videoplaza\\.com/proxy/tracker\\?"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://videopremium\\.tv/dev/tr\\.js"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://videotracker\\.washingtonpost\\.com\\^"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://vidx\\.to/php/count\\.php\\?"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://vidxden\\.com\\^.*/tracker\\.js"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://vietnamnet\\.vn\\^.*/tracking\\.js"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://villarenters\\.com/inttrack\\.aspx"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://vimeo\\.com/log/outro_displayed"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://viralnova\\.com/track\\.php"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://viralogy\\.com/javascript/viralogy_tracker\\.js"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://virginholidays\\.co\\.uk/_assets/js/dc_storm/track\\.js"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://virtualearth\\.net/mapcontrol/.*/veapiAnalytics\\.js"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://visit\\.dealspwn\\.com\\^"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://visit\\.mobot\\.net\\^"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://visit\\.theglobeandmail\\.com\\^"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://visitors\\.sourcingmap\\.com\\^"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://visualware\\.com/vvv\\?"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://vitamine\\.networldmedia\\.net\\^"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://vixy\\.net/fb-traffic-pop\\.js"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
             "url-filter": "^https?://vmware\\.com/files/include/ga/"
         }
     }, 
@@ -66243,14 +67449,6 @@
         }, 
         "trigger": {
             "url-filter": "^https?://vty\\.dailymotion\\.com\\^"
-        }
-    }, 
-    {
-        "action": {
-            "type": "block"
-        }, 
-        "trigger": {
-            "url-filter": "^https?://vulture\\.com/eiilmu/pixel\\.gif\\?"
         }
     }, 
     {
@@ -66666,6 +67864,14 @@
             "type": "block"
         }, 
         "trigger": {
+            "url-filter": "^https?://wired\\.com/event\\?"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
             "url-filter": "^https?://wired\\.com/js/stats/"
         }
     }, 
@@ -66790,6 +67996,14 @@
         }, 
         "trigger": {
             "url-filter": "^https?://ws\\.yellowpages\\.ca\\^"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://wtk\\.db\\.com\\^"
         }
     }, 
     {
@@ -67946,7 +69160,9 @@
                 "fullpotentialma.com", 
                 "goldsday.com", 
                 "is-arquitectura.es", 
+                "mmanews.com", 
                 "orain.org", 
+                "xrussianteens.com", 
                 "youngcons.com"
             ]
         }
@@ -67959,6 +69175,17 @@
             "url-filter": "^https?://.*/cdn-cgi/pe/bag2\\?.*googlesyndication\\.com%2Fpagead%2Fosd\\.js", 
             "if-domain": [
                 "forwardprogressives.com"
+            ]
+        }
+    }, 
+    {
+        "action": {
+            "type": "ignore-previous-rules"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://.*/cdn-cgi/pe/bag2\\?.*histats\\.com", 
+            "if-domain": [
+                "xrussianteens.com"
             ]
         }
     }, 
@@ -68007,6 +69234,17 @@
             "url-filter": "^https?://.*/cdn-cgi/pe/bag2\\?.*skimlinks\\.js", 
             "if-domain": [
                 "droid-life.com"
+            ]
+        }
+    }, 
+    {
+        "action": {
+            "type": "ignore-previous-rules"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://.*/cdn-cgi/pe/bag2\\?.*static\\.getclicky\\.com%2Fjs", 
+            "if-domain": [
+                "amazingpics.net"
             ]
         }
     }, 
@@ -68491,6 +69729,25 @@
             "type": "ignore-previous-rules"
         }, 
         "trigger": {
+            "url-filter": "^https?://atlanticbb\\.net/images/track/track\\.gif\\?", 
+            "resource-type": [
+                "raw"
+            ]
+        }
+    }, 
+    {
+        "action": {
+            "type": "ignore-previous-rules"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://atpworldtour\\.com/assets/js/util/googleAnalytics\\.js"
+        }
+    }, 
+    {
+        "action": {
+            "type": "ignore-previous-rules"
+        }, 
+        "trigger": {
             "url-filter": "^https?://att\\.com/webtrends/scripts/dcs_tag\\.js"
         }
     }, 
@@ -68661,6 +69918,17 @@
             "url-filter": "^https?://bonappetit\\.com\\^.*/cn-fe-stats/", 
             "resource-type": [
                 "script"
+            ]
+        }
+    }, 
+    {
+        "action": {
+            "type": "ignore-previous-rules"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://bookmate\\.com\\^.*/impressions\\?", 
+            "resource-type": [
+                "raw"
             ]
         }
     }, 
@@ -68978,6 +70246,7 @@
         "trigger": {
             "url-filter": "^https?://chartbeat\\.com/js/chartbeat\\.js", 
             "if-domain": [
+                "m.tmz.com", 
                 "salon.com", 
                 "zap2it.com"
             ]
@@ -68991,6 +70260,17 @@
             "url-filter": "^https?://chatzy\\.com/\\?jsonp:", 
             "resource-type": [
                 "script"
+            ]
+        }
+    }, 
+    {
+        "action": {
+            "type": "ignore-previous-rules"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://cincinnatibell\\.net/images/track/track\\.gif\\?", 
+            "resource-type": [
+                "raw"
             ]
         }
     }, 
@@ -70435,6 +71715,31 @@
             "type": "ignore-previous-rules"
         }, 
         "trigger": {
+            "url-filter": "^https?://i\\.s-microsoft\\.com/storecontent/", 
+            "resource-type": [
+                "script"
+            ], 
+            "if-domain": [
+                "microsoftstore.com"
+            ]
+        }
+    }, 
+    {
+        "action": {
+            "type": "ignore-previous-rules"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://i\\.s-microsoft\\.com/wedcs/ms\\.js", 
+            "if-domain": [
+                "skype.com"
+            ]
+        }
+    }, 
+    {
+        "action": {
+            "type": "ignore-previous-rules"
+        }, 
+        "trigger": {
             "url-filter": "^https?://img\\.en25\\.com/eloquaimages/clients/PentonMediaInc/", 
             "resource-type": [
                 "image"
@@ -71005,6 +72310,31 @@
             "type": "ignore-previous-rules"
         }, 
         "trigger": {
+            "url-filter": "^https?://media\\.flixcar\\.com/delivery/js/inpage/.*/mpn/", 
+            "resource-type": [
+                "script"
+            ], 
+            "if-domain": [
+                "currys.co.uk"
+            ]
+        }
+    }, 
+    {
+        "action": {
+            "type": "ignore-previous-rules"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://media\\.flixfacts\\.com/js/loader\\.js", 
+            "if-domain": [
+                "currys.co.uk"
+            ]
+        }
+    }, 
+    {
+        "action": {
+            "type": "ignore-previous-rules"
+        }, 
+        "trigger": {
             "url-filter": "^https?://media\\.ft\\.com/j/optimost-", 
             "if-domain": [
                 "ft.com"
@@ -71148,8 +72478,20 @@
                 "greentoe.com", 
                 "kickstarter.com", 
                 "mint.com", 
+                "nbc.com", 
                 "thefrisky.com", 
                 "vid.me"
+            ]
+        }
+    }, 
+    {
+        "action": {
+            "type": "ignore-previous-rules"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://mlb\\.com/b/ss/", 
+            "resource-type": [
+                "image"
             ]
         }
     }, 
@@ -71338,6 +72680,7 @@
                 "change.org", 
                 "greentoe.com", 
                 "intuit.com", 
+                "nbc.com", 
                 "thefrisky.com"
             ]
         }
@@ -71606,20 +72949,8 @@
         "trigger": {
             "url-filter": "^https?://ooyala\\.com/3rdparty/comscore_", 
             "if-domain": [
-                "livetvcafe.net"
-            ]
-        }
-    }, 
-    {
-        "action": {
-            "type": "ignore-previous-rules"
-        }, 
-        "trigger": {
-            "url-filter": "^https?://ooyala\\.com/3rdparty/comscore_.*\\.swf", 
-            "if-domain": [
-                "bloomberg.com", 
-                "businessweek.com", 
-                "greentechmedia.com"
+                "livetvcafe.net", 
+                "player.complex.com"
             ]
         }
     }, 
@@ -72082,6 +73413,20 @@
         }, 
         "trigger": {
             "url-filter": "^https?://rockingsoccer\\.com/js/match_stats\\.js"
+        }
+    }, 
+    {
+        "action": {
+            "type": "ignore-previous-rules"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://ru4\\.com/wsb/", 
+            "resource-type": [
+                "script"
+            ], 
+            "if-domain": [
+                "chase.com"
+            ]
         }
     }, 
     {
@@ -72617,6 +73962,20 @@
             "type": "ignore-previous-rules"
         }, 
         "trigger": {
+            "url-filter": "^https?://telize\\.com/geoip\\?", 
+            "resource-type": [
+                "script"
+            ], 
+            "if-domain": [
+                "dailymotion.com"
+            ]
+        }
+    }, 
+    {
+        "action": {
+            "type": "ignore-previous-rules"
+        }, 
+        "trigger": {
             "url-filter": "^https?://texasroadhouse\\.com/common/javascript/google-analytics\\.js"
         }
     }, 
@@ -72846,6 +74205,54 @@
             "resource-type": [
                 "script"
             ]
+        }
+    }, 
+    {
+        "action": {
+            "type": "ignore-previous-rules"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://utm\\.arc\\.nasa\\.gov/common/css/"
+        }
+    }, 
+    {
+        "action": {
+            "type": "ignore-previous-rules"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://utm\\.arc\\.nasa\\.gov/common/js/common\\.js"
+        }
+    }, 
+    {
+        "action": {
+            "type": "ignore-previous-rules"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://utm\\.arc\\.nasa\\.gov/common/js/hideEmail\\.js"
+        }
+    }, 
+    {
+        "action": {
+            "type": "ignore-previous-rules"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://utm\\.arc\\.nasa\\.gov/common/js/nav\\.js"
+        }
+    }, 
+    {
+        "action": {
+            "type": "ignore-previous-rules"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://utm\\.arc\\.nasa\\.gov/common/js/swap\\.js"
+        }
+    }, 
+    {
+        "action": {
+            "type": "ignore-previous-rules"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://utm\\.arc\\.nasa\\.gov/images/"
         }
     }, 
     {
@@ -73120,6 +74527,20 @@
             "type": "ignore-previous-rules"
         }, 
         "trigger": {
+            "url-filter": "^https?://washingtonpost\\.com/wp-stat/echo2/canvases/", 
+            "resource-type": [
+                "script"
+            ], 
+            "if-domain": [
+                "washingtonpost.com"
+            ]
+        }
+    }, 
+    {
+        "action": {
+            "type": "ignore-previous-rules"
+        }, 
+        "trigger": {
             "url-filter": "^https?://wbshop\\.com/fcgi-bin/iipsrv\\.fcgi\\?"
         }
     }, 
@@ -73352,6 +74773,17 @@
         }, 
         "trigger": {
             "url-filter": "^https?://xfinity\\.com\\^.*/Comcast\\.SelfService\\.Sitecatalyst\\.js"
+        }
+    }, 
+    {
+        "action": {
+            "type": "ignore-previous-rules"
+        }, 
+        "trigger": {
+            "url-filter": "^https?://yandex\\.ru/metrika/watch\\.js", 
+            "if-domain": [
+                "engwords.net"
+            ]
         }
     }, 
     {

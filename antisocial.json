@@ -4205,6 +4205,14 @@
             "type": "block"
         }, 
         "trigger": {
+            "url-filter": "^https?://.*/fbpop\\.js"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
             "url-filter": "^https?://.*/fbpromo\\."
         }
     }, 
@@ -17762,7 +17770,10 @@
             "type": "block"
         }, 
         "trigger": {
-            "url-filter": "^https?://.*_facebook\\.gif"
+            "url-filter": "^https?://.*_facebook\\.gif", 
+            "unless-domain": [
+                "facebook.com"
+            ]
         }
     }, 
     {
@@ -17770,7 +17781,10 @@
             "type": "block"
         }, 
         "trigger": {
-            "url-filter": "^https?://.*_facebook\\.png"
+            "url-filter": "^https?://.*_facebook\\.png", 
+            "unless-domain": [
+                "facebook.com"
+            ]
         }
     }, 
     {
@@ -21674,6 +21688,15 @@
         "action": {
             "type": "css-display-none", 
             "selector": "#crestashareicon"
+        }, 
+        "trigger": {
+            "url-filter": ".*"
+        }
+    }, 
+    {
+        "action": {
+            "type": "css-display-none", 
+            "selector": "#crestashareiconincontent"
         }, 
         "trigger": {
             "url-filter": ".*"
@@ -27523,6 +27546,15 @@
     {
         "action": {
             "type": "css-display-none", 
+            "selector": "#post-share-buttons"
+        }, 
+        "trigger": {
+            "url-filter": ".*"
+        }
+    }, 
+    {
+        "action": {
+            "type": "css-display-none", 
             "selector": "#post-share-float"
         }, 
         "trigger": {
@@ -32581,6 +32613,15 @@
     {
         "action": {
             "type": "css-display-none", 
+            "selector": "#socialMediaGray"
+        }, 
+        "trigger": {
+            "url-filter": ".*"
+        }
+    }, 
+    {
+        "action": {
+            "type": "css-display-none", 
             "selector": "#socialMediaHorizontalToolbar"
         }, 
         "trigger": {
@@ -32942,6 +32983,24 @@
         "action": {
             "type": "css-display-none", 
             "selector": "#socialWidget"
+        }, 
+        "trigger": {
+            "url-filter": ".*"
+        }
+    }, 
+    {
+        "action": {
+            "type": "css-display-none", 
+            "selector": "#socialWidgets"
+        }, 
+        "trigger": {
+            "url-filter": ".*"
+        }
+    }, 
+    {
+        "action": {
+            "type": "css-display-none", 
+            "selector": "#socialWidgetsWrap"
         }, 
         "trigger": {
             "url-filter": ".*"
@@ -34985,6 +35044,15 @@
         "action": {
             "type": "css-display-none", 
             "selector": "#top_social_twit"
+        }, 
+        "trigger": {
+            "url-filter": ".*"
+        }
+    }, 
+    {
+        "action": {
+            "type": "css-display-none", 
+            "selector": "#topnavSocial"
         }, 
         "trigger": {
             "url-filter": ".*"
@@ -37126,6 +37194,15 @@
     {
         "action": {
             "type": "css-display-none", 
+            "selector": ".Socialbuttons"
+        }, 
+        "trigger": {
+            "url-filter": ".*"
+        }
+    }, 
+    {
+        "action": {
+            "type": "css-display-none", 
             "selector": ".StickyShareBlock"
         }, 
         "trigger": {
@@ -37846,6 +37923,15 @@
     {
         "action": {
             "type": "css-display-none", 
+            "selector": ".addthis_responsive_sharing"
+        }, 
+        "trigger": {
+            "url-filter": ".*"
+        }
+    }, 
+    {
+        "action": {
+            "type": "css-display-none", 
             "selector": ".addthis_separator"
         }, 
         "trigger": {
@@ -38044,6 +38130,15 @@
     {
         "action": {
             "type": "css-display-none", 
+            "selector": ".amc-social"
+        }, 
+        "trigger": {
+            "url-filter": ".*"
+        }
+    }, 
+    {
+        "action": {
+            "type": "css-display-none", 
             "selector": ".answer_shares"
         }, 
         "trigger": {
@@ -38116,6 +38211,24 @@
     {
         "action": {
             "type": "css-display-none", 
+            "selector": ".apsc-facebook-icon"
+        }, 
+        "trigger": {
+            "url-filter": ".*"
+        }
+    }, 
+    {
+        "action": {
+            "type": "css-display-none", 
+            "selector": ".apsc-twitter-icon"
+        }, 
+        "trigger": {
+            "url-filter": ".*"
+        }
+    }, 
+    {
+        "action": {
+            "type": "css-display-none", 
             "selector": ".arqam-widget-counter"
         }, 
         "trigger": {
@@ -38144,6 +38257,15 @@
         "action": {
             "type": "css-display-none", 
             "selector": ".art-social-toolbar"
+        }, 
+        "trigger": {
+            "url-filter": ".*"
+        }
+    }, 
+    {
+        "action": {
+            "type": "css-display-none", 
+            "selector": ".art-topbar_share"
         }, 
         "trigger": {
             "url-filter": ".*"
@@ -38729,6 +38851,15 @@
         "action": {
             "type": "css-display-none", 
             "selector": ".article_social_sharing_box"
+        }, 
+        "trigger": {
+            "url-filter": ".*"
+        }
+    }, 
+    {
+        "action": {
+            "type": "css-display-none", 
+            "selector": ".article_social_wrap"
         }, 
         "trigger": {
             "url-filter": ".*"
@@ -41293,6 +41424,15 @@
     {
         "action": {
             "type": "css-display-none", 
+            "selector": ".cresta-share-icon"
+        }, 
+        "trigger": {
+            "url-filter": ".*"
+        }
+    }, 
+    {
+        "action": {
+            "type": "css-display-none", 
             "selector": ".csbwfs-social-widget"
         }, 
         "trigger": {
@@ -41797,6 +41937,15 @@
     {
         "action": {
             "type": "css-display-none", 
+            "selector": ".dsp_social"
+        }, 
+        "trigger": {
+            "url-filter": ".*"
+        }
+    }, 
+    {
+        "action": {
+            "type": "css-display-none", 
             "selector": ".dv-social-media"
         }, 
         "trigger": {
@@ -41915,6 +42064,24 @@
         "action": {
             "type": "css-display-none", 
             "selector": ".eShareBar"
+        }, 
+        "trigger": {
+            "url-filter": ".*"
+        }
+    }, 
+    {
+        "action": {
+            "type": "css-display-none", 
+            "selector": ".e_share"
+        }, 
+        "trigger": {
+            "url-filter": ".*"
+        }
+    }, 
+    {
+        "action": {
+            "type": "css-display-none", 
+            "selector": ".e_socials"
         }, 
         "trigger": {
             "url-filter": ".*"
@@ -44578,6 +44745,15 @@
     {
         "action": {
             "type": "css-display-none", 
+            "selector": ".fb-square"
+        }, 
+        "trigger": {
+            "url-filter": ".*"
+        }
+    }, 
+    {
+        "action": {
+            "type": "css-display-none", 
             "selector": ".fb-subscribe"
         }, 
         "trigger": {
@@ -46297,6 +46473,15 @@
     {
         "action": {
             "type": "css-display-none", 
+            "selector": ".follow-us-icons"
+        }, 
+        "trigger": {
+            "url-filter": ".*"
+        }
+    }, 
+    {
+        "action": {
+            "type": "css-display-none", 
             "selector": ".follow-us-links"
         }, 
         "trigger": {
@@ -46928,6 +47113,15 @@
         "action": {
             "type": "css-display-none", 
             "selector": ".footer-connect"
+        }, 
+        "trigger": {
+            "url-filter": ".*"
+        }
+    }, 
+    {
+        "action": {
+            "type": "css-display-none", 
+            "selector": ".footer-eletter-social"
         }, 
         "trigger": {
             "url-filter": ".*"
@@ -54154,6 +54348,15 @@
     {
         "action": {
             "type": "css-display-none", 
+            "selector": ".lo-social_icon"
+        }, 
+        "trigger": {
+            "url-filter": ".*"
+        }
+    }, 
+    {
+        "action": {
+            "type": "css-display-none", 
             "selector": ".loggedout-follow-normal"
         }, 
         "trigger": {
@@ -55891,6 +56094,15 @@
     {
         "action": {
             "type": "css-display-none", 
+            "selector": ".newsDetailSocialMediaBox"
+        }, 
+        "trigger": {
+            "url-filter": ".*"
+        }
+    }, 
+    {
+        "action": {
+            "type": "css-display-none", 
             "selector": ".newsSocialLinkTable"
         }, 
         "trigger": {
@@ -56414,6 +56626,15 @@
         "action": {
             "type": "css-display-none", 
             "selector": ".pg-caption-share"
+        }, 
+        "trigger": {
+            "url-filter": ".*"
+        }
+    }, 
+    {
+        "action": {
+            "type": "css-display-none", 
+            "selector": ".pgm-social-share"
         }, 
         "trigger": {
             "url-filter": ".*"
@@ -64054,6 +64275,15 @@
     {
         "action": {
             "type": "css-display-none", 
+            "selector": ".soc-pinterest"
+        }, 
+        "trigger": {
+            "url-filter": ".*"
+        }
+    }, 
+    {
+        "action": {
+            "type": "css-display-none", 
             "selector": ".soc-share-cont"
         }, 
         "trigger": {
@@ -66529,6 +66759,15 @@
     {
         "action": {
             "type": "css-display-none", 
+            "selector": ".social-share-wrap"
+        }, 
+        "trigger": {
+            "url-filter": ".*"
+        }
+    }, 
+    {
+        "action": {
+            "type": "css-display-none", 
             "selector": ".social-share-wrapper"
         }, 
         "trigger": {
@@ -66826,6 +67065,15 @@
     {
         "action": {
             "type": "css-display-none", 
+            "selector": ".social-taskbar"
+        }, 
+        "trigger": {
+            "url-filter": ".*"
+        }
+    }, 
+    {
+        "action": {
+            "type": "css-display-none", 
             "selector": ".social-tiny"
         }, 
         "trigger": {
@@ -66862,6 +67110,15 @@
     {
         "action": {
             "type": "css-display-none", 
+            "selector": ".social-tools-additional"
+        }, 
+        "trigger": {
+            "url-filter": ".*"
+        }
+    }, 
+    {
+        "action": {
+            "type": "css-display-none", 
             "selector": ".social-tools-bottom"
         }, 
         "trigger": {
@@ -66872,6 +67129,15 @@
         "action": {
             "type": "css-display-none", 
             "selector": ".social-tools-home"
+        }, 
+        "trigger": {
+            "url-filter": ".*"
+        }
+    }, 
+    {
+        "action": {
+            "type": "css-display-none", 
+            "selector": ".social-tools-primary"
         }, 
         "trigger": {
             "url-filter": ".*"
@@ -70687,6 +70953,33 @@
     {
         "action": {
             "type": "css-display-none", 
+            "selector": ".ssk-facebook"
+        }, 
+        "trigger": {
+            "url-filter": ".*"
+        }
+    }, 
+    {
+        "action": {
+            "type": "css-display-none", 
+            "selector": ".ssk-google-plus"
+        }, 
+        "trigger": {
+            "url-filter": ".*"
+        }
+    }, 
+    {
+        "action": {
+            "type": "css-display-none", 
+            "selector": ".ssk-twitter"
+        }, 
+        "trigger": {
+            "url-filter": ".*"
+        }
+    }, 
+    {
+        "action": {
+            "type": "css-display-none", 
             "selector": ".sss_shares_block"
         }, 
         "trigger": {
@@ -73028,6 +73321,15 @@
         "action": {
             "type": "css-display-none", 
             "selector": ".twitter-social"
+        }, 
+        "trigger": {
+            "url-filter": ".*"
+        }
+    }, 
+    {
+        "action": {
+            "type": "css-display-none", 
+            "selector": ".twitter-square"
         }, 
         "trigger": {
             "url-filter": ".*"

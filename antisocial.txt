@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: jFPzhDhKOF/ChbKC71dRGw
-! Version: 201509120221
+! Checksum: blrlRpK8DFrmM94VRbkV0w
+! Version: 201510141401
 ! Title: Fanboy's Social Blocking List
-! Last modified: 12 Sep 2015 02:21 UTC
+! Last modified: 14 Oct 2015 14:01 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -522,6 +522,7 @@
 /fblikefp.
 /fbook-share-
 /fbook.png
+/fbpop.js
 /fbpromo.
 /fbshare.
 /fbshare2.
@@ -2157,8 +2158,8 @@ _delicious_btn.
 _digg.gif
 _email_social_
 _facebook-
-_facebook.gif
-_facebook.png
+_facebook.gif$domain=~facebook.com
+_facebook.png$domain=~facebook.com
 _facebook01.
 _facebook14.
 _facebook_24.
@@ -2613,6 +2614,7 @@ _youtube_social_
 ###content_share
 ###cpf-viewbox-sharebar
 ###crestashareicon
+###crestashareiconincontent
 ###csSocial
 ###ctSocialShare
 ###ctl00_DescriptionBlock_lblTwitter
@@ -3262,6 +3264,7 @@ _youtube_social_
 ###popup_social
 ###post-share
 ###post-share-bottom
+###post-share-buttons
 ###post-share-float
 ###post-share-icons
 ###post-share-tools-container
@@ -3824,6 +3827,7 @@ _youtube_social_
 ###socialMediaBoxout
 ###socialMediaCallout
 ###socialMediaFlyouts
+###socialMediaGray
 ###socialMediaHorizontalToolbar
 ###socialMediaMenu
 ###socialMediaNav
@@ -3865,6 +3869,8 @@ _youtube_social_
 ###socialTwitterBadge
 ###socialView
 ###socialWidget
+###socialWidgets
+###socialWidgetsWrap
 ###socialWire
 ###socialWrapper
 ###socialWrapper2
@@ -4092,6 +4098,7 @@ _youtube_social_
 ###top_social_g
 ###top_social_networks_container
 ###top_social_twit
+###topnavSocial
 ###topsharearea
 ###topsharebar
 ###topsocial
@@ -4329,6 +4336,7 @@ _youtube_social_
 ##.Social_Widget
 ##.Social_container
 ##.Social_title
+##.Socialbuttons
 ##.StickyShareBlock
 ##.StoryShare
 ##.StoryShareBar
@@ -4409,6 +4417,7 @@ _youtube_social_
 ##.addthis_header
 ##.addthis_horizontal
 ##.addthis_jumbo_share
+##.addthis_responsive_sharing
 ##.addthis_separator
 ##.addthis_toolbox
 ##.addthis_toolbox_alt2
@@ -4431,6 +4440,7 @@ _youtube_social_
 ##.all-share-links
 ##.allshare_buttons
 ##.altshare
+##.amc-social
 ##.answer_shares
 ##.aol-faux-facebook-like
 ##.aol-follow
@@ -4439,10 +4449,13 @@ _youtube_social_
 ##.ap-article-social
 ##.ap-follow-widget
 ##.apFollowWidget
+##.apsc-facebook-icon
+##.apsc-twitter-icon
 ##.arqam-widget-counter
 ##.arqam_counter-widget
 ##.art-social
 ##.art-social-toolbar
+##.art-topbar_share
 ##.art_share_rev
 ##.art_share_right
 ##.art_shr_top
@@ -4508,6 +4521,7 @@ _youtube_social_
 ##.article_share_buttons
 ##.article_sharing
 ##.article_social_sharing_box
+##.article_social_wrap
 ##.articlesharebox
 ##.ashare_box
 ##.aside-social
@@ -4792,6 +4806,7 @@ _youtube_social_
 ##.counter-globalLikeBox
 ##.cq-footer-social
 ##.crafty-social-buttons
+##.cresta-share-icon
 ##.csbwfs-social-widget
 ##.csc_social_counter
 ##.cshare
@@ -4848,6 +4863,7 @@ _youtube_social_
 ##.dni-social-feed
 ##.dpArticleShare
 ##.drop_facebook
+##.dsp_social
 ##.dv-social-media
 ##.dyt-social
 ##.dzone-social-buttons
@@ -4862,6 +4878,8 @@ _youtube_social_
 ##.e-subpost_share
 ##.e14-sharing-icons-div
 ##.eShareBar
+##.e_share
+##.e_socials
 ##.easy-social-share-fans-counter
 ##.easylikeandshare
 ##.easyshareit
@@ -5157,6 +5175,7 @@ _youtube_social_
 ##.fb-share-single
 ##.fb-slider
 ##.fb-social-likebox-plugin
+##.fb-square
 ##.fb-subscribe
 ##.fb-tweet
 ##.fb-twitter
@@ -5348,6 +5367,7 @@ _youtube_social_
 ##.follow-us-component__networks
 ##.follow-us-facebook
 ##.follow-us-google
+##.follow-us-icons
 ##.follow-us-links
 ##.follow-us-on-module
 ##.follow-us-on-twitter
@@ -5419,6 +5439,7 @@ _youtube_social_
 ##.footer--social
 ##.footer--social-link
 ##.footer-connect
+##.footer-eletter-social
 ##.footer-facebook
 ##.footer-facebook-icon
 ##.footer-fb
@@ -6221,6 +6242,7 @@ _youtube_social_
 ##.lk-tw
 ##.ln_share_button
 ##.lnkFacebook
+##.lo-social_icon
 ##.loggedout-follow-normal
 ##.long_post_share_digg
 ##.long_post_share_twiiter
@@ -6414,6 +6436,7 @@ _youtube_social_
 ##.newGigyaShare
 ##.newSharerButtons
 ##.new_facebook_16
+##.newsDetailSocialMediaBox
 ##.newsSocialLinkTable
 ##.newsplus_social
 ##.nextgen-share-tools
@@ -6473,6 +6496,7 @@ _youtube_social_
 ##.pds-share
 ##.persistent-menu_share-links
 ##.pg-caption-share
+##.pgm-social-share
 ##.phillyfooter-social
 ##.phillysocial
 ##.photo-share
@@ -7321,6 +7345,7 @@ _youtube_social_
 ##.soc-icons-bar
 ##.soc-insta
 ##.soc-media
+##.soc-pinterest
 ##.soc-share-cont
 ##.soc-tu
 ##.soc-tw
@@ -7596,6 +7621,7 @@ _youtube_social_
 ##.social-share-title
 ##.social-share-toolbar
 ##.social-share-twitter
+##.social-share-wrap
 ##.social-share-wrapper
 ##.social-sharebar
 ##.social-sharer
@@ -7629,12 +7655,15 @@ _youtube_social_
 ##.social-tab-mini
 ##.social-tabs
 ##.social-tail
+##.social-taskbar
 ##.social-tiny
 ##.social-tool
 ##.social-toolbar
 ##.social-tools
+##.social-tools-additional
 ##.social-tools-bottom
 ##.social-tools-home
+##.social-tools-primary
 ##.social-tools-wrapper-bottom
 ##.social-top
 ##.social-top-barz
@@ -8058,6 +8087,9 @@ _youtube_social_
 ##.ssb-share
 ##.ssba_pinterest_share
 ##.ssba_sharecount
+##.ssk-facebook
+##.ssk-google-plus
+##.ssk-twitter
 ##.sss_shares_block
 ##.st-social-block
 ##.st-social-share-buttons
@@ -8319,6 +8351,7 @@ _youtube_social_
 ##.twitter-sharetool
 ##.twitter-sidebar-button
 ##.twitter-social
+##.twitter-square
 ##.twitter-ticker-widget
 ##.twitter-timeline
 ##.twitter-tweet-button

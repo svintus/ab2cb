@@ -52,6 +52,6 @@ def alexa_filter(rules):
     # print "domains to keep: ", len(keep)
     # print "domains to discard: ", len(discard)
 
-    return keep, len(discard)
+    return keep, discard
 
 

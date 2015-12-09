@@ -53,7 +53,7 @@ def print_sections(sections):
 
 
 def print_section(section):
-    print "%-50s%10d%10d" % (section[0], len(section[1]), section[2])
+    print "%-50s%10d%10d" % (section[0], len(section[1]), len(section[2]))
 
 def print_separator():
     print "-" * 80
@@ -61,10 +61,28 @@ def print_separator():
 
 def filter_section(section):
     name, rules = section
-    filtered_rules, drop_count = alexa_filter(rules)
-    return (name, filtered_rules, drop_count)
+    filtered_rules, dropped_rules = alexa_filter(rules)
+    return (name, filtered_rules, dropped_rules)
+
+def is_ascii(string):
+    try:
+        string.encode('ascii')
+    except UnicodeDecodeError:
+        return False
+    return True
 
 def is_rule_ok(rule):
+    if (rule.startswith("|http://") or
+        rule.startswith("|https://") or
+        rule.startswith("@@|http://")):
+        return False
+
+    if "{" in rule:
+        return False
+
+    if not is_ascii(rule):
+        return False
+
     return True
 
 def sanitize_section(section):
@@ -75,9 +93,39 @@ def sanitize_section(section):
         if is_rule_ok(rule):
             sanitized_rules.append(rule)
         else:
-            dropped += 1
+            dropped.append(rule)
     return (name, sanitized_rules, dropped)
 
+
+
+def write_data(filename, sections):
+
+    output_dir = "processed"
+    drop_dir = "dropped"
+
+    # sections = sections[:1]
+    output_filename = filename.split("/")[-1]
+
+    output_file = open(output_dir + "/" + output_filename, "w")
+    drop_file = open(drop_dir + "/" + output_filename, "w")
+
+    for section in sections:
+        name, rules, dropped = section
+
+        if rules:
+            output_file.write("!" + 40 * "-" + "\n")
+            output_file.write("! *** " + name + " ***\n")
+            for rule in rules:
+                output_file.write(rule + "\n")
+
+        if dropped:
+            drop_file.write("!" + 40 * "-" + "\n")
+            drop_file.write("! *** " + name + " ***\n")
+            for rule in dropped:
+                drop_file.write(rule + "\n")
+
+    output_file.close()
+    drop_file.close()
 
 def process_file(filename):
     sections_to_filter = [
@@ -123,40 +171,42 @@ def process_file(filename):
         if name in sections_to_filter:
             return filter_section(section)
         elif name in sections_to_drop:
-            return (name, [], len(rules))
+            return (name, [], rules)
         else:
-            return (name, rules, 0)
+            return (name, rules, [])
 
     sections = parse_list(filename)
     sections = [process_section(section) for section in sections]
+    sections = [sanitize_section(section) for section in sections]
+
+    write_data(filename, sections)
 
     total_count = sum([len(section[1]) for section in sections])
+    drop_count = sum([len(section[2]) for section in sections])
     
     print_sections(sections)
     print_separator()
-    print "%-50s%d" % ("Total", total_count)
+    print "%-50s%10d%10d" % ("Total", total_count, drop_count)
 
 
-    return total_count
-
+    return total_count, drop_count
 
 
 files = [
     "update/easylist.txt",
     "update/easyprivacy.txt",
     "update/antisocial.txt",
-
-    # "easylist.txt",
-    # "easyprivacy.txt",
-    # "antisocial.txt",
 ]
 
-total = 0
+total_count = 0
+dropped_count = 0
 for filename in files:
-    total += process_file(filename)
+    total, dropped = process_file(filename)
+    total_count += total
+    dropped_count += dropped
     print
 
 print_separator()
-print "%-50s%d" % ("Grand Total", total)
+print "%-50s%10d%10d" % ("Grand Total", total_count, dropped_count)
 
 

@@ -98,6 +98,12 @@ def sanitize_section(section):
 
 
 
+def write_rules(output_file, section_name, rules):
+    output_file.write("!" + 40 * "-" + "\n")
+    output_file.write("! *** " + section_name + " ***\n")
+    for rule in rules:
+        output_file.write(rule + "\n")
+
 def write_data(filename, sections):
 
     output_dir = "processed"
@@ -113,19 +119,14 @@ def write_data(filename, sections):
         name, rules, dropped = section
 
         if rules:
-            output_file.write("!" + 40 * "-" + "\n")
-            output_file.write("! *** " + name + " ***\n")
-            for rule in rules:
-                output_file.write(rule + "\n")
+            write_rules(output_file, name, rules)
 
         if dropped:
-            drop_file.write("!" + 40 * "-" + "\n")
-            drop_file.write("! *** " + name + " ***\n")
-            for rule in dropped:
-                drop_file.write(rule + "\n")
+            write_rules(drop_file, name, dropped)
 
     output_file.close()
     drop_file.close()
+
 
 def process_file(filename):
     sections_to_filter = [

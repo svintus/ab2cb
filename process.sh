@@ -1,8 +1,9 @@
 #!/bin/sh
 
-python ab2cb/ab2cb.py easylist.txt > easylist.json
-python ab2cb/ab2cb.py easyprivacy.txt > easyprivacy.json
-python ab2cb/ab2cb.py antisocial.txt > antisocial.json
+python inhaler.py
+python ab2cb/ab2cb.py -o easylist.json processed/easylist.txt
+python ab2cb/ab2cb.py -o easyprivacy.json processed/easyprivacy.txt
+python ab2cb/ab2cb.py -o antisocial.json processed/antisocial.txt
 
 cp *.json ../BlockBear/BlockBear/Resources/
 

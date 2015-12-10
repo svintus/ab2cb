@@ -5,10 +5,6 @@ topdomains = [x.strip() for x in open("alexa.txt", "r").readlines()]
 topdomains = set(topdomains[:50000])
 # topdomains = set(topdomains)
 
-# elemhide = open("elemhide_sorted.txt", "r").readlines()
-
-# elemhide = elemhide[:100]
-
 
 def extract_domains(rule):
     if "##" in rule:
@@ -45,13 +41,7 @@ def alexa_filter(rules):
                 break
         if do_continue:
             continue
-        # print domains
         discard.append(elem)
 
-    # print
-    # print "domains to keep: ", len(keep)
-    # print "domains to discard: ", len(discard)
-
     return keep, discard
-
 

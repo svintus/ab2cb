@@ -74,7 +74,8 @@ def is_ascii(string):
 def is_rule_ok(rule):
     if (rule.startswith("|http://") or
         rule.startswith("|https://") or
-        rule.startswith("@@|http://")):
+        rule.startswith("@@|http://") or
+        rule.startswith("@@|https://")):
         return False
 
     if "{" in rule:
